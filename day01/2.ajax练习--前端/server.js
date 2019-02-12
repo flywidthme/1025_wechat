@@ -11,6 +11,7 @@ app.use(express.static('public'))
 
   //获取所有省份信息
   app.get('/getAllProvince',(req,res)=>{
+    // res.set('Access-Control-Allow-Origin', 'http://localhost:63342');
     Cities.find({level:1},{province:1,name:1,_id:0},(err,data)=>{
       if(!err){
         res.json({state:1,data})

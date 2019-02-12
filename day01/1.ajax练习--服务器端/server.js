@@ -39,7 +39,7 @@ const PORT = 3000;
   app.get('/getCountyByProAndCity',(req,res)=>{
     const {province} = req.query
     const {city} = req.query
-    Cities.find({province,city,level:3},{city:1,name:1,_id:0},(err,data)=>{
+    Cities.find({province,city,level:3},{county:1,name:1,_id:0},(err,data)=>{
       if(!err){
         res.json({state:1,data})
       }else{
