@@ -16,7 +16,7 @@ const PORT = 3000;
         res.json({state:1,data})
       }else{
         console.log(err)
-        res.json({state:0,data:'网络不稳定'})
+        res.json({state:0,data:'网络不稳定，稍后再试！'})
       }
     })
   })
