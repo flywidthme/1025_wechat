@@ -1,0 +1,15 @@
+{
+  "name": "1025_wechat_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/Tianyu5177/1025_wechat.git",
+    "type": "git"
+  },
+  "author": "tianyu <tianyu@gamil.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "5.2.8"
+  }
+}
