@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
-    "mongoose": "5.2.8"
+    "mongoose": "5.2.8",
+    "sha1": "^1.1.1"
   }
 }
