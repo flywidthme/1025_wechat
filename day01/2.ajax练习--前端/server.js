@@ -3,7 +3,7 @@ const db = require('./db')
 const Cities = require('./model/cities')
 const app = express()
 const PORT = 3000;
-
+app.use(express.static('public'))
 
 ;(async()=>{
   //等待数据库连接完毕
